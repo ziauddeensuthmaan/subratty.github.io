@@ -1,0 +1,56 @@
+body{
+    background-color: white;
+}
+
+.qr-section{
+    width: 75%;
+    background-color: hsl(212, 45%, 89%);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+    
+   
+}
+
+
+
+.box{
+    background-color: white;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 5%;
+    border: none;
+    margin-left: auto;
+    margin-right: auto; 
+       
+}
+img.qr-image{
+    border-radius: 5%;
+    width: 275px;
+    height: 250px;
+}
+.heading{
+    text-align: center;
+}
+.text{
+    color: grey;
+    text-align: center;
+    font-size: 15px;
+}
+@media (max-width:375px) {
+       body{
+        background-color: hsl(212, 45%, 89%);
+        margin: 0;
+       }
+       .qr-section{
+        width: fit-content;
+       }
+       
+       
+      
+       
+}
